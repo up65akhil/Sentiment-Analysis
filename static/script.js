@@ -1,4 +1,4 @@
-const API_URL = "http://127.0.0.1:5000/predict";
+const API_URL ="https://my-backend.onrender.com";
 
 document.getElementById("analyzeBtn").addEventListener("click", analyzeSentiment);
 
@@ -28,3 +28,4 @@ async function analyzeSentiment() {
     alert("Failed to connect to backend: " + error.message);
   }
 }
+
