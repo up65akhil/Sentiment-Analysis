@@ -1,4 +1,4 @@
-const API_URL ="https://my-backend.onrender.com";
+const API_URL ="https://api.render.com/deploy/srv-d2cp7ier433s73au3gdg?key=V6iyR-QdQjY";
 
 document.getElementById("analyzeBtn").addEventListener("click", analyzeSentiment);
 
@@ -28,4 +28,5 @@ async function analyzeSentiment() {
     alert("Failed to connect to backend: " + error.message);
   }
 }
+
 
