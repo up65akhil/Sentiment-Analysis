@@ -1,4 +1,4 @@
-const API_URL ="https://sentiment-analysis-z4wq.onrender.com";
+const API_URL ="https://sentiment-analysis-z4wq.onrender.com/predict";
 
 document.getElementById("analyzeBtn").addEventListener("click", analyzeSentiment);
 
@@ -28,6 +28,7 @@ async function analyzeSentiment() {
     alert("Failed to connect to backend: " + error.message);
   }
 }
+
 
 
 
